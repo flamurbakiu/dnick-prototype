@@ -17,7 +17,7 @@ const InsideCourse = (props) => {
     <Container>
       <div className={styles["inside-course"]}>
         <div className={styles.left}>
-          <img src={course.image} />
+          <img src={course.image} alt={course.name} />
         </div>
         <div className={styles.right}>
           <h3>{course.name}</h3>
